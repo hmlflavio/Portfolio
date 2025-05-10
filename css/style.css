@@ -10,8 +10,9 @@ header {
     height: 90px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0;
-    padding: 0;
+    padding: 0 40px;
     background-color: #071614;
 }
 
@@ -24,7 +25,6 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: right
 }
 
 nav a {
@@ -36,13 +36,14 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #1a3b35;
 }
 
 section {
     display: flex;
     align-items: center;
-    gap: 20px;
+    padding: 20px 40px; 
+    gap: 100px;
 }
 
 section img {
@@ -50,5 +51,38 @@ section img {
     height: auto;
     border-radius: 25%;
     padding: 40px;
+
 }
 
+#home {
+        background: linear-gradient(to bottom, #0E2A26 0%, #0A211E 70%, #071614 100%);
+}
+.texto {
+    max-width: 550px;
+    font-size: 1.9rem;
+    line-height: 1.6;
+}
+
+#sobre-mim {
+    background-color: #071614;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.container-sobre {
+    max-width: 900px;
+    text-align: center;
+}
+
+#sobre-mim h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#sobre-mim p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
