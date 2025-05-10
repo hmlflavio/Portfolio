@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #0E2A26;
+    font-family: 'Jura', sans-serif;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #071614;
+}
+
+h1 {
+    margin:0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+section img {
+    width: 450px;
+    height: auto;
+    border-radius: 25%;
+    padding: 40px;
+}
+
