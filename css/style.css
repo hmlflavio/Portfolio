@@ -43,11 +43,11 @@ section {
     display: flex;
     align-items: center;
     padding: 20px 40px; 
-    gap: 100px;
+    gap: 160px;
 }
 
 section img {
-    width: 450px;
+    width: 300px;
     height: auto;
     border-radius: 25%;
     padding: 40px;
@@ -59,7 +59,7 @@ section img {
 }
 .texto {
     max-width: 550px;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     line-height: 1.6;
 }
 
@@ -78,11 +78,56 @@ section img {
 }
 
 #sobre-mim h2 {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     margin-bottom: 30px;
 }
 
 #sobre-mim p {
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     line-height: 1.8;
+}
+#projetos {
+    background-color: #0A211E;
+    color: white;
+    padding: 40px 20px;
+}
+
+.container-projetos {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#projetos h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projeto {
+    background-color: #071614;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #333;
+}
+
+.projeto h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #a2f0df;
+}
+
+.projeto p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.projeto a {
+    color: #a2f0df;
+    text-decoration: none;
+}
+
+.imagens-projeto img {
+    width:100%;
+    max-width: 400px;
+    margin: 10px 10px 0 0;
 }
