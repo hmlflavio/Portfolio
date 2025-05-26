@@ -5,6 +5,31 @@ body {
     background-color: #0E2A26;
     font-family: 'Jura', sans-serif;
 }
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    background-color: #071614;
+    position: absolute;
+    top: 90px; /* altura do header */
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav li {
+    text-align: center;
+    border-bottom: 1px solid #1a3b35;
+}
+
+}
+
 
 header {
     height: 90px;
@@ -39,6 +64,25 @@ nav a:hover {
     background-color: #1a3b35;
 }
 
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  section img {
+    width: 80%;
+    padding: 0;
+    margin-top: 190px;
+  }
+
+  .texto {
+    font-size: 1.2rem;
+    max-width: 90%;
+  }
+}
+
 section {
     display: flex;
     align-items: center;
@@ -64,6 +108,7 @@ section h2 {
 
 
 #home {
+  padding-top: 90px;
         background: linear-gradient(to bottom, #0E2A26 0%, #0A211E 70%, #071614 100%);
 }
 .texto {
@@ -184,9 +229,9 @@ section h2 {
   gap: 30px;
   margin: 40px 0
 }
-
 .icone-box {
   width: 100px;
+  aspect-ratio: 1 / 1;
   text-align: center;
   background-color: #0E2A26;
   padding: 15px;
@@ -198,6 +243,9 @@ section h2 {
   width: 50px;
   height: auto;
   margin-bottom: 0px;
+  max-width: 60%;
+  max-height: 60%;           
+  margin: 0;                
 }
 
 .icone-box p {
@@ -250,6 +298,9 @@ section h2 {
 .idioma-box img {
   width: 30px;
   margin-bottom: 10px;
+  max-width: 60%;
+  max-height: 60%;           
+  margin: 0;  
 }
 
 .idioma-box p {
@@ -259,6 +310,20 @@ section h2 {
 
 .idioma-box:hover {
   transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .box-sobre, .projeto {
+    padding: 20px;
+  }
+
+  .container-sobre,
+  .container-projetos {
+    padding: 0 10px;
+  }
+
+  .projeto h3 {
+    font-size: 1.5rem;
+  }
 }
 
 #projetos {
@@ -303,6 +368,16 @@ section h2 {
   border-radius: 12px;
   max-width: 100%;
   height: auto;
+}
+@media (max-width: 768px) {
+  .botoes-contato {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .botao-contato {
+    width: 100%;
+  }
 }
 
 #contatos {
